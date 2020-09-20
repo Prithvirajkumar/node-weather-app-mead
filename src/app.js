@@ -35,7 +35,8 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
     name: "Prithvi",
-    message: "Help page",
+    message:
+      "Please reach out to prithvirajkumar14@gmail.com for any assistance",
   });
 });
 
